@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json.bak
+
+# Local data and cache
+/data/*.sqlite
+/data/*.tmp
+*.log
+
+# Environment and sensitive keys
+.env
+.env.local
+*.key
+*.pem
+*.cert
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor folders
+.vscode/
+.idea/
+.openclaude/
+.perch/
+
+# Testing scratch
+test.txt
